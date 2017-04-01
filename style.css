@@ -1,0 +1,47 @@
+html {
+	font-family: 'Roboto';
+	color: #FB2929;
+	font-size: 32px;
+}
+a{
+	text-decoration: none;
+}
+
+
+
+
+.slider{
+
+}
+.slide{
+	position: absolute;
+	top: 7%;
+	left: 6%;
+}
+.navigation{
+	width: 88%;
+	height: 30px;
+	position: absolute;
+	bottom: 10%;
+	left: 6%;
+	
+}
+#prev{
+	background-color: #6B6B6B;
+}
+#next{
+	background-color: #ADADAD;
+}
+#prev, #next{
+	width: 50%;
+	float: left;
+}
+.navigation a{
+	color: #171717;
+	text-align: center;
+	display: block;
+	transition: all 0.3s ease-in-out;
+}
+.navigation a:hover{
+	opacity: .8;
+}
